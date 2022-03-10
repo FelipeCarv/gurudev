@@ -1,0 +1,11 @@
+.introducao-bg{
+    background-image: url("/assets/img/img1.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto;
+    padding-bottom: 700px;
+}
+
+.introducao{
+    padding-top: 100px;
+}

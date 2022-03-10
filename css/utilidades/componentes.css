@@ -1,0 +1,21 @@
+.botao-simples a{
+    color: var(--cor-3);
+    position: relative;
+    padding: 10px 16px;
+}
+
+.botao-simples.seta{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.botao-simples.seta::after{
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 12px;
+    margin-top: 4px;
+    background: url(/assets/global-icons/seta-verde.svg) no-repeat;
+    cursor: pointer;
+}
