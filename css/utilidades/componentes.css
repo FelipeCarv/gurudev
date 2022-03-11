@@ -19,3 +19,20 @@
     background: url(/assets/global-icons/seta-verde.svg) no-repeat;
     cursor: pointer;
 }
+
+.botao-gradiente{
+    border: none;
+    border-radius: 4px;
+    padding: 18px 25px;
+    cursor: pointer;
+    background: linear-gradient(94.11deg, #74973E 0%, #3E9765 53.51%);
+}
+
+.botao-gradiente.seta2::after{
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 12px;
+    margin-left: 10px;
+    background: url(/assets/global-icons/seta-branca.svg) no-repeat;
+}

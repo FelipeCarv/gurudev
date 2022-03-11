@@ -4,8 +4,40 @@
     background-position: top;
     background-size: auto;
     padding-bottom: 700px;
+    
+}
+
+.teste{
+    padding: 88px;
+    background-image: linear-gradient(to right, rgba(13, 24, 35, 1), rgba(13, 24, 35, 0));
+
 }
 
 .introducao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding-top: 100px;
+
+}
+
+.introducao h1{
+    margin-bottom: 24px;
+    grid-column: 1;
+}
+.introducao p{
+    grid-column: 1;
+}
+
+.introducao button{
+    margin-top: 50px;
+    grid-column: 1;
+    box-sizing: border-box;
+    place-self: start;
+}
+
+.detalhes-introducao{
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
 }

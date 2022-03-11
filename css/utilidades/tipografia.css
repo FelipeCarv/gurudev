@@ -7,7 +7,7 @@
     text-transform: uppercase;
 }
 
-.font-1-l{
+.font-h1{
     color: var(--cor-0);
     font-weight: 700;
     font-size: 80px;
@@ -20,4 +20,13 @@
     font-size: 20px;
     line-height: 150%;
     letter-spacing: 0.03em;   
+}
+
+.font-1-s{
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
