@@ -4,7 +4,7 @@
 @import "./home/header.css";
 @import "./home/introducao.css";
 @import "./home/parceiros.css";
-
+@import "./home/quem-somos.css";
 
 /*CSS utilidades*/
 @import "./utilidades/componentes.css";

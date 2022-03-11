@@ -1,0 +1,46 @@
+.quem-somos-bg{
+    background-color: var(--cor-11);
+}
+
+.quem-somos{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0 30px;
+}
+
+.quem-somos-info{
+    grid-column: 1;
+    align-self: start;
+    padding-top: 100px;
+    padding-bottom: 140px ;
+}
+
+.quem-somos-info p{
+    text-align: start;
+    margin-top: 20px;
+    line-height: 28px;
+}
+
+.quem-somos-list{
+    grid-row: 2;
+    align-self: end;
+}
+
+.quem-somos-list ul{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.quem-somos-list li{
+    min-width: 160px;
+    background-color: var(--cor-0);
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid var(--cor-4);
+    border-radius: 4px;
+    
+}
+
+.quem-somos-img{
+
+}
