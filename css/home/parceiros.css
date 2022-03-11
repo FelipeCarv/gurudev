@@ -1,0 +1,16 @@
+.parceiros-bg{
+    background-color: var(--cor-11);
+}
+
+.parceiros{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.parceiros li{
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
