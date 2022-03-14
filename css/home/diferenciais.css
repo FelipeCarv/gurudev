@@ -1,0 +1,43 @@
+.diferenciais-bg{
+    background-color: #F8F9FA;
+}
+
+.diferenciais{
+    margin-top: -40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+.diferenciais h1{
+    text-align: center;
+    padding: 70px 0px;
+}
+
+.diferenciais h3{
+    padding: 20px 0;
+}
+
+.diferenciais ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 40px;
+}
+
+.diferenciais li{
+    border: 2px dashed  rgba(62, 151, 101, 0.16);
+    width: 500px;
+    background-color: var(--cor-0);
+    padding: 20px;
+}
+
+.diferenciais a{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
