@@ -15,11 +15,24 @@
     letter-spacing: 0.02em;
 }
 
+.font-h1-2{
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+}
+
 .font-1-m{
     font-weight: 500;
     font-size: 20px;
     line-height: 150%;
     letter-spacing: 0.03em;   
+}
+.font-2-ms{
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .font-1-s{
@@ -27,7 +40,6 @@
     font-style: normal;
     font-size: 18px;
     line-height: 100%;
-    text-align: center;
     letter-spacing: 0.03em;
 }
 

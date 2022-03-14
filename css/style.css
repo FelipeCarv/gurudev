@@ -5,6 +5,7 @@
 @import "./home/introducao.css";
 @import "./home/parceiros.css";
 @import "./home/quem-somos.css";
+@import "./home/jornada.css";
 
 /*CSS utilidades*/
 @import "./utilidades/componentes.css";

@@ -36,7 +36,7 @@
 .quem-somos-list ul{
     display: flex;
     box-sizing: border-box;
-    padding-top: 68px;
+    padding-top: 65px;
 }
 
 .quem-somos-list li{
@@ -60,10 +60,3 @@
     z-index: 1;
 }
 
-.teste-verde{
-    padding: 180px;
-    background-color: blue;
-    box-shadow: inset 0 200px var(--cor-4);
-    position: relative;
-    top: -40px;
-}

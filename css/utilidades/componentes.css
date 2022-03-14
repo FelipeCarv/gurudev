@@ -36,3 +36,22 @@
     margin-left: 10px;
     background: url(/assets/global-icons/seta-branca.svg) no-repeat;
 }
+
+.botao-branco{
+    border: none;
+    border-radius: 4px;
+    padding: 18px 25px;
+    cursor: pointer;
+    background: var(--cor-0);
+}
+
+.botao-branco.seta::after{
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    margin-top: 4px;
+    align-content: center;
+    background: url(/assets/global-icons/seta-verde-btn-branco.svg) no-repeat;
+}
