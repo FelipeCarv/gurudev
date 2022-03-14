@@ -9,7 +9,6 @@
 
 .teste{
     background-image: linear-gradient(to right, rgba(13, 24, 35, 1), rgba(13, 24, 35, 0));
-
 }
 
 .introducao{
@@ -28,15 +27,16 @@
 }
 
 .introducao button{
-    margin-top: 50px;
     grid-column: 1;
     box-sizing: border-box;
     place-self: start;
+    margin-top: -80px;
 }
 
 .detalhes-introducao{
     grid-column: 1/-1;
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 140px;
+    padding-bottom: 100px;
 }
