@@ -1,0 +1,57 @@
+.produtos-bg{
+    background-color: var(--cor-9);
+}
+
+.produtos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 150px;
+}
+
+.produto-titulo{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    grid-column: 1/ -1;
+}
+
+.comentario{
+    padding: 0px 10px 10px 10px;
+    max-width: 190px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    text-align: center;
+    place-self: start;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.comentario img{
+    margin: 0px auto;
+    display: block;
+    padding: 15px 0;
+}
+
+.produtos-informacao{
+    max-width: 350px;
+}
+
+.produtos-informacao h1{
+    padding-bottom: 15px;
+}
+
+.vendas, .crm{
+    display: flex;
+    gap: 30px;
+}
+
+.vendas{
+    grid-column: 1;
+    place-self: start;
+}
+
+.crm{
+    grid-column: 2 ;
+    place-self: center;
+}

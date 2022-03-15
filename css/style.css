@@ -7,6 +7,9 @@
 @import "./home/quem-somos.css";
 @import "./home/jornada.css";
 @import "./home/diferenciais.css";
+@import "./home/produtos.css";
+@import "./home/consultoria.css";
+
 
 /*CSS utilidades*/
 @import "./utilidades/componentes.css";
