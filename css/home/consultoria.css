@@ -1,0 +1,32 @@
+.consultoria-bg{
+    background-image: url("/assets/consultoria/img3.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto;
+    padding-bottom: 340px;
+}
+
+.consultoria{
+    max-width: 1150px;
+    background: rgba(60, 76, 91, 0.8);
+    backdrop-filter: blur(80px);
+    border-radius: 8px;
+    padding: 56px;
+    position: relative;
+    top: 470px;
+}
+
+.consultoria ul{
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.consultoria li{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+.consultoria a{
+    margin-bottom: 20px;
+}
