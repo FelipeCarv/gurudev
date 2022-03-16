@@ -1,5 +1,4 @@
 .font-1-intro{
-    color: var(--cor-3);
     font-weight: 700;
     font-size: 16px;
     line-height: 100%;
@@ -40,6 +39,14 @@
     font-style: normal;
     font-size: 18px;
     font-weight: 500;
+    letter-spacing: 0.03em;
+}
+
+.font-1-sb{
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 700;
     letter-spacing: 0.03em;
 }
 

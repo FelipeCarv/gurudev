@@ -4,4 +4,68 @@
 
 .depoimento{
     padding-top: 300px;
+    display: flex;
+    gap: 60px;
+    overflow-x: scroll;
+}
+
+.depoimento-informacao{
+    max-width: 320px;
+    text-align: start;
+}
+
+.depoimento-informacao img{
+    padding-top: 50px;
+}
+
+.depoimento-informacao h2{
+    line-height: 1.2;
+    padding-top: 16px;
+}
+.depoimento ul{
+    display: flex;
+    gap: 10px;
+}
+.depoimento li{
+    max-width: 400px;
+    padding: 22px;
+    border: 1px solid #E9ECEF;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.depo-lista-informacao{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.depo-lista-informacao::before{
+    display: block;
+    content: '';
+    width: 16px;
+    height: 17px;
+    background: url('/assets/depoimentos/detalhe-verde-depoimentos.svg');
+    top: -52px;
+    right: 10px;
+    position: absolute;
+}
+
+
+.depo-lista-informacao::after{
+    display: block;
+    content: '';
+    width: 40px;
+    height: 35px;
+    background: url('/assets/depoimentos/aspas.svg');
+    top: -62px;
+    left: 0px;
+    position: absolute;
+    
+}
+
+.depo-lista-pessoa{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
