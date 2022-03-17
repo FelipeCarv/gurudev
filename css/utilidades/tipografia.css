@@ -6,6 +6,13 @@
     text-transform: uppercase;
 }
 
+.font-1-form{
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+
 .font-h1{
     color: var(--cor-0);
     font-weight: 700;

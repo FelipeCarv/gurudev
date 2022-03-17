@@ -10,6 +10,7 @@
 @import "./home/produtos.css";
 @import "./home/consultoria.css";
 @import "./home/depoimento.css";
+@import "./home/contato.css";
 
 /*CSS utilidades*/
 @import "./utilidades/componentes.css";
