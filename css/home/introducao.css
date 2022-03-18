@@ -25,7 +25,7 @@
     grid-column: 1;
 }
 
-.introducao button{
+.introducao a{
     grid-column: 1;
     box-sizing: border-box;
     place-self: start;
