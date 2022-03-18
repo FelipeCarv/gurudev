@@ -3,7 +3,6 @@
     background-repeat: no-repeat;
     background-position: top;
     background-size: auto;
-    
 }
 
 .teste{
@@ -37,5 +36,5 @@
     display: flex;
     justify-content: space-between;
     margin-top: 140px;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
