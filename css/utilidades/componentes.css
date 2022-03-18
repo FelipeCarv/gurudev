@@ -1,13 +1,17 @@
-.botao-simples a{
+.botao-simples{
     color: var(--cor-3);
     position: relative;
     padding: 10px 16px;
+    box-sizing: border-box;
+    margin-right: 30px;
 }
 
 .botao-simples.seta{
     display: flex;
     align-items: center;
     justify-self: center;
+    box-sizing: border-box;
+    
 }
 
 .botao-simples.seta::after{
@@ -18,6 +22,10 @@
     margin-top: 4px;
     background: url(/assets/global-icons/seta-verde.svg) no-repeat;
     cursor: pointer;
+    box-sizing: border-box;
+    right: -15px;
+    position: absolute;
+   
 }
 
 .botao-gradiente{
@@ -26,6 +34,7 @@
     padding: 18px 25px;
     cursor: pointer;
     background: linear-gradient(94.11deg, #74973E 0%, #3E9765 53.51%);
+    box-sizing: border-box;
 }
 
 .botao-gradiente.seta2::after{
@@ -43,6 +52,7 @@
     padding: 18px 25px;
     cursor: pointer;
     background: var(--cor-0);
+    box-sizing: border-box;
 }
 
 .botao-branco.seta::after{
@@ -62,6 +72,7 @@
     padding: 18px 25px;
     cursor: pointer;
     background: var(--cor-4);
+    box-sizing: border-box;
 }
 
 .botao-verde.seta2::after{
