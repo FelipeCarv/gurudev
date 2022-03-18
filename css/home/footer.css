@@ -1,0 +1,80 @@
+.footer-bg{
+    background-color: var(--cor-11);
+}
+
+.footer{
+    display: grid;
+    padding: 100px 100px 0 100px;
+    grid-template-columns: 3fr 9fr;
+}
+
+.footer img{
+    box-sizing: border-box;
+    place-self: start;
+}
+
+.footer-informacoes{
+    display: flex;
+    gap: 150px;
+    min-width: 960px;
+    justify-content: end;
+}
+
+
+.footer-informacoes h2{
+    margin-bottom: 32px;
+    color: var(--cor-0);
+}
+
+.footer-informacoes li{
+    max-width: 150px;
+    margin-bottom: 30px;
+    color: var(--cor-0);
+    
+}
+
+.footer-contato li{
+    position: relative;
+}
+
+.footer-contato img{
+    position: absolute;
+    left: -30px;
+}
+
+.footer-contato span{
+    position: relative;
+}
+
+.footer-contato span::after{
+    display: block;
+    content: '';
+    width: 24px;
+    height: 24px;
+    left: -30px;
+    top: 6px;
+    background: url(/assets/icons-footer/Pin\,\ Location-1.svg);
+    position: absolute;
+}
+
+
+.footer-informacoes p{
+    max-width: 200px;
+}
+
+.footer-informacoes a{
+    color: var(--cor-0);
+}
+
+.footer-copy{
+    display: flex;
+    grid-column:  1/-1;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.footer-copy img{
+    place-self: start;
+
+}
