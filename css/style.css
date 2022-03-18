@@ -1,6 +1,7 @@
 /*CSS home*/
 @import "./home/global.css";
 @import "./utilidades/tipografia.css";
+@import "./home/nav-inicial.css";
 @import "./home/header.css";
 @import "./home/introducao.css";
 @import "./home/parceiros.css";
@@ -12,6 +13,7 @@
 @import "./home/depoimento.css";
 @import "./home/contato.css";
 @import "./home/footer.css";
+
 
 /*CSS utilidades*/
 @import "./utilidades/componentes.css";

@@ -1,0 +1,18 @@
+.navegacao-inicial-bg{
+    background: linear-gradient(90.08deg, #3E9765 0%, #A2C06B 100%);
+}
+
+.navegacao-inicial{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacao-inicial p{
+    max-width: 400px;
+    padding: 24px 0;
+}
+
+.botao-simples-nav{
+    padding: 24px 0;
+}
