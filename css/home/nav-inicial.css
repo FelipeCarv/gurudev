@@ -1,5 +1,32 @@
 .navegacao-inicial-bg{
     background: linear-gradient(90.08deg, #3E9765 0%, #A2C06B 100%);
+    position: relative;
+}
+
+.navegacao-inicial::after{
+    content: '';
+    display: block;
+    background-image: url(/assets/global-icons/detalhes.svg);
+    background-position: top;
+    background-size: auto;
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.botao-simples-nav::after{
+    content: '';
+    display: block;
+    background-image: url(/assets/global-icons/detalhes.svg);
+    background-position: top;
+    background-size: auto;
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    top: 0;
+    right: 0;
 }
 
 .navegacao-inicial{
@@ -11,6 +38,8 @@
 .navegacao-inicial p{
     max-width: 400px;
     padding: 24px 0;
+    position: relative;
+    z-index: 2;
 }
 
 .botao-simples-nav{

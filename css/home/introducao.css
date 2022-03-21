@@ -3,17 +3,39 @@
     background-repeat: no-repeat;
     background-position: top;
     background-size: auto;
+    position: relative;
+    box-shadow: inset linear-gradient(270deg, #C4C4C4 15.91%, rgba(196, 196, 196, 0.27337) 42.63%, rgba(196, 196, 196, 0.165089) 50.31%, rgba(196, 196, 196, 0.0966432) 60.65%, rgba(196, 196, 196, 0) 74.92%);;
 }
 
-.teste{
-    background-image: linear-gradient(to right, rgba(13, 24, 35, 1), rgba(13, 24, 35, 0));
+.introducao-bg::after{
+    content: '';
+    display: block;
+    background-image: url(/assets/global-icons/detalhes-main.svg);
+    background-position: top;
+    background-size: auto;
+    position: absolute;
+    width: 780px;
+    height: 100%;
+    top: 0;
+    
+}
+
+.introducao-bg::before{
+    background-image: linear-gradient(to right, var(--cor-10) 50%,  var(--cor-10) 1.31%,  var(--cor-10) 10%, rgba(196, 196, 196, 0) 100.92%);
+    content: '';
+    display: block;
+    position: absolute;
+    width: 780px;
+    height: 100%;
+    top: 0;
 }
 
 .introducao{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 100px;
-
+    position: relative;
+    z-index: 2;
 }
 
 .introducao h1{
