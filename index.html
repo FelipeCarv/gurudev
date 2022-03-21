@@ -5,10 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+        />
     <link rel="stylesheet" href="./css/style.css">
     <title>GURU - CRM</title>
-</head>
+<script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=EBKZ-_QZ7BYvLjANHqNpVSyi9q9QFZImUIFnznlRAc9qbB0o3q6d3GQy9gvqeFitSOc245wwuRTECseiq9IksVtGSO4xOY3wD334QBIbrWvxX98qd3ZXW8ifIw8DuzGW8EvEPp-iuJChxOjBx4N6Xg" charset="UTF-8"></script></head>
 <body>
+ 
+
+
 
     <nav id="navegacao-inicial" class="navegacao-inicial-bg">
         <div class="navegacao-inicial container">
@@ -57,14 +66,49 @@
         </div>
 
         <section class="parceiros-bg">
-            <ul class="parceiros">
+                <div class="swiper swiper-parceiros">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="item-slide" style="padding: 1rem;">
+                                <img src="/assets/parceiros/Mask Group.svg" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item-slide" style="padding: 1rem;">
+                                <img src="/assets/parceiros/Mask Group-1.svg" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item-slide" style="padding: 1rem;">
+                                <img src="/assets/parceiros/Mask Group-2.svg" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item-slide" style="padding: 1rem;">
+                                <img src="/assets/parceiros/Mask Group-3.svg" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item-slide" style="padding: 1rem;">
+                                <img src="/assets/parceiros/Mask Group-4.svg" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item-slide" style="padding: 1rem;">
+                                <img src="/assets/parceiros/Mask Group-5.svg" alt="img">
+                            </div>
+                        </div>
+                    </div>             
+                </div>
+          
+            <!-- <ul class="parceiros">
                 <li><img src="/assets/parceiros/Mask Group.svg" alt=""></li>
                <li><img src="/assets/parceiros/Mask Group-1.svg" alt=""></li>
                <li><img src="/assets/parceiros/Mask Group-2.svg" alt=""></li>
                <li><img src="/assets/parceiros/Mask Group-3.svg" alt=""></li>
                <li><img src="/assets/parceiros/Mask Group-4.svg" alt=""></li>
                <li><img src="/assets/parceiros/Mask Group-5.svg" alt=""></li>
-            </ul>
+            </ul> -->
         </section>
 
         <section id="quem-somos" class="quem-somos-bg">
@@ -533,4 +577,34 @@
     </footer>
 
 </body>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+
+<script>
+    var swiper = new Swiper(".swiper-parceiros", {
+    slidesPerView: 'auto'
+    // breakpoints: {
+    //     640:{
+    //         slidesPerView: 2.5, 
+    //     },
+    //     940:{
+    //         slidesPerView: 3.5, 
+    //     },
+    //     1024:{
+    //         slidesPerView: 5.5, 
+    //     }
+
+    // }
+
+    //  spaceBetween: 30,
+    // pagination: {
+    //   el: ".swiper-pagination",
+    //   clickable: true,
+    // },
+  });
+
+</script>
+
+
 </html>
