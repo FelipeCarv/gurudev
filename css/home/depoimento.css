@@ -89,3 +89,23 @@
     margin-top: 90px;
 }
 
+@media (max-width: 800px) {
+    .depoimento{
+        padding-top: 100px;
+        display: flex;
+        gap: 20px;
+        overflow-x: scroll;
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 400px) {
+    .depoimento li{
+        max-width: 340px;
+        max-height: 340px;
+        padding: 22px;
+        border: 1px solid #E9ECEF;
+        box-sizing: border-box;
+        border-radius: 8px;
+    }
+}

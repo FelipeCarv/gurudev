@@ -30,3 +30,60 @@
 .consultoria a{
     margin-bottom: 20px;
 }
+
+@media (max-width: 800px){
+    .consultoria-bg{
+        padding-bottom: 0px;
+    }
+    .consultoria{
+        top: 0;
+        max-width: 750px;
+        border-radius: 0;
+    }
+
+    .consultoria h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .consultoria p{
+        text-align: justify;
+    }
+
+    .consultoria li{
+        padding-bottom: 60px;
+    }
+    .consultoria a{
+        justify-content: center;
+    }
+} 
+
+@media (max-width: 500px){
+    .consultoria-bg{
+        padding-bottom: 0px;
+    }
+    .consultoria{
+        top: 0;
+        max-width: 500px;
+        border-radius: 0;
+        min-width: 300px;
+    }
+
+    .consultoria h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .consultoria p{
+        text-align: justify;
+        
+    }
+
+    .consultoria li{
+        padding-bottom: 60px;
+        min-width: 300px;
+    }
+    .consultoria a{
+        justify-content: center;
+    }
+} 
