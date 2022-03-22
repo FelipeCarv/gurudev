@@ -80,5 +80,19 @@
 
 
 @media (max-width: 800px) {
-    
+    .jornada{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .jornada h1{
+        font-size: 38px;
+    }
+    .jornada ul{
+        grid-column: 1;
+        min-width: 400px; /*950*/
+    }
+    .jornada-card{
+        max-width: 400px;
+        height: 350px;
+    }
 }

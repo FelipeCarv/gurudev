@@ -60,7 +60,7 @@
     z-index: 1;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
     .quem-somos{
         display: grid;
         grid-template-columns: 1fr;
