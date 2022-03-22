@@ -33,16 +33,22 @@
     <header id="header" class="header-bg">
         <div class="header container">
             <a href=""><img src="/assets/guru.svg" alt=""></a>
-            <nav>
-                <ul class="header-menu cor-0">
-                    <li><a href="#quem-somos">Quem Somos</a></li>
-                    <li><a href="#produtos">Produtos</a></li>
-                    <li><a href="#depoimentos">Depoimentos</a></li>
-                    <li><a href="#contato">Contato</a></li>
+            <nav id="nav">
+                <ul class="header-menu cor-0 menu-mobile">
+                    <li class="menu-mobile-link"><a href="#quem-somos">Quem Somos</a></li>
+                    <li class="menu-mobile-link"><a href="#produtos">Produtos</a></li>
+                    <li class="menu-mobile-link"><a href="#depoimentos">Depoimentos</a></li>
+                    <li class="menu-mobile-link"><a href="#contato">Contato</a></li>
+                    <li class="menu-mobile-link"><a class="botao-simples botao-header2" href="#contato">Fale Conosco</a></li>
+                    <li class="menu-mobile-link"><a id="estilo-unico" class="botao-simples cor-3" href="#produtos">Conheça o Guru de vendas</a></li>
                 </ul>
             </nav>
             <div>
                 <a id="botao-header" class="botao-simples seta" href="#contato">Fale Conosco</a>
+            </div>
+
+              <div id="menu-hamburguer">
+                <img  src="/assets/global-icons/menu-hamburguer.svg" alt="">
             </div>
         </div> 
     </header>
@@ -583,32 +589,7 @@
 </body>
 
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-
-
-<script>
-    var swiper = new Swiper(".swiper-parceiros", {
-    slidesPerView: 'auto'
-    // breakpoints: {
-    //     640:{
-    //         slidesPerView: 2.5, 
-    //     },
-    //     940:{
-    //         slidesPerView: 3.5, 
-    //     },
-    //     1024:{
-    //         slidesPerView: 5.5, 
-    //     }
-
-    // }
-
-    //  spaceBetween: 30,
-    // pagination: {
-    //   el: ".swiper-pagination",
-    //   clickable: true,
-    // },
-  });
-
-</script>
+<script src="/js/index.js"></script>
 
 
 </html>

@@ -21,3 +21,60 @@
     font-size: 1rem;
 }
 
+#menu-hamburguer{
+    width: 24px;
+    height: 24px;
+    display: none;
+}
+
+.botao-header2{
+    display: none;
+}
+
+#estilo-unico{
+    display: none;
+}
+
+@media(max-width: 800px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    .header-menu {
+        display: none;
+        position: absolute;
+        width: 45vw;
+        top: 80px;
+        z-index: 3;
+        right: 0;
+        background-color: var(--cor-9);
+        height: calc(100vh - 70px);
+    }
+    #botao-header{
+        display: none;
+    }
+    #menu-hamburguer{
+        display: block;
+    }
+
+    #nav.active .header-menu {
+        display: block;
+    }
+
+    .menu-mobile-link a{
+        display: block;
+        padding: 1rem;
+    }
+
+    #estilo-unico{
+        color: var(--cor-3);
+        display: block;
+    }
+
+    .menu-mobile-link:hover{
+        background-color: var(--cor-10);
+        transition: .3s;
+    }
+    
+}

@@ -45,3 +45,10 @@
 .botao-simples-nav{
     padding: 14px 0;
 }
+
+
+@media(max-width: 800px){
+    .navegacao-inicial{
+        display: none;
+    }
+}
