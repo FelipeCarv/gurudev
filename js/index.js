@@ -13,18 +13,20 @@ btnMobile.addEventListener('click', toggleMenu);
 
     var swiper = new Swiper(".swiper-parceiros", {
         slidesPerView: 'auto',
-        // breakpoints: {
-        //     640:{
-        //         slidesPerView: 2.5, 
-        //     },
-        //     940:{
-        //         slidesPerView: 3.5, 
-        //     },
-        //     1024:{
-        //         slidesPerView: 5.5, 
-        //     }
+        breakpoints: {
+            740:{
+               
+                slidesPerView: 3.5, 
+            },
+            800:{
+              
+                slidesPerView: 3.5, 
+            },
+            1024:{
+                slidesPerView: 5.5, 
+            }
     
-        // },
+        },
     
         //  spaceBetween: 30,
         // pagination: {

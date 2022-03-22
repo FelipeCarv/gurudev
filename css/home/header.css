@@ -45,7 +45,7 @@
         display: none;
         position: absolute;
         width: 45vw;
-        top: 80px;
+        top: 75px;
         z-index: 3;
         right: 0;
         background-color: var(--cor-9);

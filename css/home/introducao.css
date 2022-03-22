@@ -60,3 +60,21 @@
     margin-top: 140px;
     padding-bottom: 60px;
 }
+
+@media(max-width: 800px){
+    .introdução{
+        grid-template-columns: 1fr;
+    }
+    .detalhe-crm{
+       display: none;
+    }
+    .introducao-bg::before{
+        background-image: linear-gradient(to right, var(--cor-10) 55%,  var(--cor-10) 50.31%,  var(--cor-10) 75%, rgba(196, 196, 196, 0) 100.92%);
+        content: '';
+        display: block;
+        position: absolute;
+        width: 780px;
+        height: 100%;
+        top: 0;
+    }
+}

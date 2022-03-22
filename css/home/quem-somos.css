@@ -60,3 +60,24 @@
     z-index: 1;
 }
 
+@media (max-width: 800px) {
+    .quem-somos{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #informativo{
+        max-width: 450px;
+        margin-bottom: 60px;
+    }
+
+    .quem-somos-list ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 450px;
+    }
+
+    .quem-somos-imagem{
+        display: none;
+    }
+}
