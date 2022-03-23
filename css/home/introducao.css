@@ -62,6 +62,9 @@
 }
 
 @media(max-width: 800px){
+    .introducao-informacao h1{
+        font-size: 3.5rem;
+    }
     .introdução{
         grid-template-columns: 1fr;
     }
@@ -77,4 +80,38 @@
         height: 100%;
         top: 0;
     }
+}
+
+@media(max-width: 500px){
+    .introducao-informacao h1{
+        font-size: 3.2rem;
+    }
+    .introducao-informacao h3{
+        font-size: 0.9rem;
+    }
+
+    .introducao-informacao {
+        text-align: start;
+    }
+}
+
+@media (max-width: 380px){
+    #informativo {
+        max-width: 300px;
+        margin-bottom: 60px;
+        text-align: start;
+        place-self: start;
+    }
+
+    .detalhes-introducao{
+        max-width: 120px;
+        margin-top: 40px;
+        margin-left: -28px;
+    }
+
+    .introducao-informacao {
+        text-align: start;
+        max-width: none;
+    }
+    
 }
