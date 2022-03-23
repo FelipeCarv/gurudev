@@ -2,9 +2,20 @@
     background-image: url("/assets/img/img1.png");
     background-repeat: no-repeat;
     background-position: top;
-    background-size: auto;
+    background-size: cover;
     position: relative;
     
+}
+.introducao-bg .filtro-banner{
+
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(9, 17, 24, 0.3 ); */
+    /* background:  linear-gradient(90deg, rgba(1,0,2,1) 34%, rgba(255,255,255,0) 100%); */
+    /* background:  linear-gradient(141.77deg, #C4C4C4 22.03%, rgba(196, 196, 196, 0) 63.05%); */
+  
 }
 
 .introducao-bg::after{
@@ -14,18 +25,19 @@
     background-position: top;
     background-size: auto;
     position: absolute;
-    width: 780px;
+    width: 45%;
     height: 100%;
     top: 0;
     
 }
 
 .introducao-bg::before{
-    background-image: linear-gradient(to right, var(--cor-10) 45%,  var(--cor-10) 50.31%,  var(--cor-10) 55%, rgba(196, 196, 196, 0) 100.92%);
+    /* background-image: linear-gradient(to right, var(--cor-10) 45%,  var(--cor-10) 50.31%,  var(--cor-10) 55%, rgba(196, 196, 196, 0) 100.92%); */
+    background: linear-gradient(90deg, rgba(13,24,35,1) 34%, rgba(255,255,255,0) 100%);
     content: '';
     display: block;
     position: absolute;
-    width: 780px;
+    width: 100%;
     height: 100%;
     top: 0;
 }
@@ -72,7 +84,9 @@
        display: none;
     }
     .introducao-bg::before{
-        background-image: linear-gradient(to right, var(--cor-10) 55%,  var(--cor-10) 50.31%,  var(--cor-10) 75%, rgba(196, 196, 196, 0) 100.92%);
+        /* background-image: linear-gradient(to right, var(--cor-10) 55%,  var(--cor-10) 50.31%,  var(--cor-10) 75%, rgba(196, 196, 196, 0) 100.92%); */
+        /* background:   linear-gradient(90deg, rgba(13,24,35,1) 34%, rgba(255,255,255,0) 100%);; */
+        /* background-color: rgba(13,24,35,1); */
         content: '';
         display: block;
         position: absolute;
@@ -88,6 +102,13 @@
     }
     .introducao-informacao h3{
         font-size: 0.9rem;
+    }
+    .introducao-bg::after{
+        opacity: 0.5;
+        width: 100%;
+    }
+    .introducao-bg::before{
+        background-color: rgba(13,24,35,1);
     }
 
     .introducao-informacao {
