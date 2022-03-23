@@ -107,3 +107,136 @@
 .contato-formulario button{
     place-self: start;
 }
+
+.texto-mobile{
+    display: none;
+}
+
+.texto-desktop{
+    display: block;
+}
+
+
+
+
+@media(max-width: 800px){
+    .contato{
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+
+    .contato-chamada{
+        position: absolute;
+        bottom: 670px;
+        left: 130px;
+    }
+
+    .contato-formulario{
+        border-radius: 0px;
+    }
+
+    .contato-img img{
+        border-radius: 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .texto-mobile{
+        display: block;
+    }
+    
+    .texto-desktop{
+        display: none;
+    }
+
+    .contato::before{
+        content: '';
+        position: absolute;
+        display: block;
+        background: url(/assets/contato/image\ 25.png);
+        width: 150px;
+        height: 160px;
+        top: -110px;
+        left: 300px;
+    }
+    
+}
+
+@media(max-width: 450px){
+    .contato{
+        grid-template-columns: 1fr;
+        gap: 0px;
+        padding-top: 230px;
+    }
+
+    .contato-chamada{
+        position: absolute;
+        bottom: 698px;
+        left: 0px;
+    }
+
+    .contato-formulario{
+        border-radius: 0px;
+    }
+
+    .contato-img img{
+        border-radius: 0px;
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+
+    .texto-mobile{
+        display: block;
+    }
+    
+    .texto-desktop{
+        display: none;
+    }
+
+    .contato::before{
+        content: '';
+        position: absolute;
+        display: block;
+        background: url(/assets/contato/image\ 25.png);
+        width: 150px;
+        height: 160px;
+        top: -100px;
+        left: 240px;
+        z-index: 4;
+    }
+
+    .texto-mobile{
+        font-size: 1.5rem;
+    }
+    
+    @media(max-width: 390px){
+        .contato{
+            padding-top: 200px;
+        }
+        .contato-formulario .grid-mobile{
+            grid-column: span 2;
+        }
+        .contato-chamada{
+            position: absolute;
+            bottom: 868px;
+            left: 0px;
+            
+        }
+        .texto-mobile{
+            font-size: 1.2rem;
+        }
+
+        .contato::before{
+            content: '';
+            position: absolute;
+            display: block;
+            background: url(/assets/contato/image\ 25.png);
+            width: 150px;
+            height: 160px;
+            top: -100px;
+            left: 200px;
+            z-index: 4;
+        }
+    }
+}
