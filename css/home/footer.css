@@ -105,12 +105,12 @@
     .footer-logo{
         place-self: center;
     }
+    
     .footer-informacoes{
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px 190px;
         padding-top: 40px;
-        
         place-self: center;
     }
 }
@@ -119,16 +119,22 @@
     .footer-logo{
         place-self: center;
     }
+    .footer{
+        padding: 40px 15px 15px 10px
+    }
     .footer-informacoes{
         display: grid;
-        grid-template-columns: 1fr ;
-        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
         padding-top: 40px;
         place-self: start;
         padding-left: 30px;
     }
     .footer-copy{
         flex-wrap: wrap;
-        gap: 30px;
+        gap: 20px;
+        padding-bottom: 0px;
+        padding-top: 50px;
+        justify-content: center;
     }
 }
