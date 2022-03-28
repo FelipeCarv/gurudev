@@ -1,33 +1,27 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="js">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-
-    <link
-        rel="stylesheet"
-        href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
-        />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/style.css">
-    <title>Guru</title>
   
-    </head>
+    <title>Guru</title>
+</head>
+
+
     <body>
- 
-
-
-
     <nav id="navegacao-inicial" class="navegacao-inicial-bg">
         <div class="navegacao-inicial container">
             
-            <p class="cor-0">
+            <p data-aos="fade-right" class="cor-0">
                 E conheça nosso CRM de bolso que gera agendas inteligentes pro seu vendedor fazer via WhatsApp.
             </p>
             <div class="botao-simples-nav">
-                <a class="botao-branco font-1-s cor-4" href="#produtos">Conheça o Guru de vendas</a>
+                <a data-aos="fade-left" id="botao-guru" class="botao-branco font-1-s cor-4" href="#produtos">Conheça o Guru de vendas</a>
             </div>
         </div> 
     </nav>
@@ -40,7 +34,7 @@
                     <li class="menu-mobile-link"><a href="#produtos">Produtos</a></li>
                     <li class="menu-mobile-link"><a href="#depoimentos">Depoimentos</a></li>
                     <li class="menu-mobile-link"><a href="#contato">Contato</a></li>
-                    <li class="menu-mobile-link"><a class="botao-simples botao-header2" href="#contato">Fale Conosco</a></li>
+                    <li class="menu-mobile-link"><a id="esconder" class="botao-simples botao-header2" href="#contato">Fale Conosco</a></li>
                     <li class="menu-mobile-link"><a id="estilo-unico" class="botao-simples cor-3" href="#produtos">Conheça o Guru de vendas</a></li>
                 </ul>
             </nav>
@@ -60,14 +54,14 @@
             <div class="teste-efeito">
                 <div class="introducao container ">
                     <div class="introducao-informacao">
-                        <h3 class="font-1-intro cor-3">há 18 anos criando cases de sucesso</h3>
-                        <h1 class="font-h1 cor-4"><span class="font-1-l cor-0">CRM</span><br>inteligente</h1>
-                        <p id="informativo" class="font-1-m cor-0">Ferramentas e Inteligencia para <br> ajudar você a vender mais</p>
-                        <a href="#produtos" class="botao-gradiente seta2 font-1-s cor-0">Conheça mais</a>
+                        <h3 data-aos="fade-right"  data-aos-delay="300" class="font-1-intro cor-3" >há 18 anos criando cases de sucesso</h3>
+                        <h1 data-aos="fade-right"  class="font-h1 cor-4"><span class="font-1-l cor-0" >CRM</span><br>inteligente</h1>
+                        <p  data-aos="fade-right"  data-aos-delay="300" id="informativo" class="font-1-m cor-0">Ferramentas e Inteligencia para <br> ajudar você a vender mais</p>
+                        <a data-aos="zoom-in" href="#produtos" class="botao-gradiente seta2 font-1-s cor-0">Conheça mais</a>
                     </div>
                     <!--Atentar ao icone do wpp, se necessário, criar a mão-->
                     <div class="detalhes-introducao">
-                        <img class="detalhe-crm" src="/assets/global-icons/detalhe-crm.svg" alt="">
+                      <div  onclick="location.href='#quem-somos'"><img class="detalhe-crm" src="/assets/global-icons/detalhe-crm.svg" alt=""></div>  
                         <div>
                             <a href=""><img src="/assets/global-icons/wpp-crm.svg" style="max-width: 120px;" alt=""></a>
                         </div>
@@ -112,23 +106,14 @@
                         </div>
                     </div>             
                 </div>
-          
-            <!-- <ul class="parceiros">
-                <li><img src="/assets/parceiros/Mask Group.svg" alt=""></li>
-               <li><img src="/assets/parceiros/Mask Group-1.svg" alt=""></li>
-               <li><img src="/assets/parceiros/Mask Group-2.svg" alt=""></li>
-               <li><img src="/assets/parceiros/Mask Group-3.svg" alt=""></li>
-               <li><img src="/assets/parceiros/Mask Group-4.svg" alt=""></li>
-               <li><img src="/assets/parceiros/Mask Group-5.svg" alt=""></li>
-            </ul> -->
         </section>
 
-        <section id="quem-somos" class="quem-somos-bg">
+        <section  id="quem-somos" class="quem-somos-bg">
             <div class="quem-somos container">
                 <div class="quem-somos-info">
                     <div class="quem-somos-teste">
-                        <h3 class="font-1-intro cor-3">Quem Somos</h3>
-                        <p id="informativo" class="font-1-s cor-0">
+                        <h3 data-aos="fade-right"  data-aos-delay="300" class="font-1-intro cor-3">Quem Somos</h3>
+                        <p data-aos="fade-right"  data-aos-delay="600" id="informativo" class="font-1-s cor-0" >
                             A Guru CRM desenvolve soluções para otimizar as ações de
                             Marketing e Comercial das empresas. Fundada por especialistas no
                             assunto, usam de tecnologias proprietárias para dar inteligência às
@@ -141,27 +126,27 @@
 
                     <div class="quem-somos-list">
                         <ul>
-                            <li>
+                            <li data-aos="zoom-in"  data-aos-delay="200">
                                 <p class="font-2-s cor-6">Mais de</p>
                                 <span id="teste-span" class="font-2-m cor-4">6MM</span>
                                 <p class="font-2-ss cor-7">Clientes Impactados por mês</p>
                             </li>
     
-                            <li>
+                            <li data-aos="zoom-in"  data-aos-delay="400">
                                 <p class="font-2-s cor-6">Mais de</p>
                                 <span class="font-2-m cor-4">2K</span>
                                 <p class="font-2-ss cor-7">Vendedores que utilizam
                                     das soluções da Guru</p>
                             </li>
     
-                            <li>
+                            <li data-aos="zoom-in"  data-aos-delay="600">
                                 <p class="font-2-s cor-6">Mais de</p>
                                 <span class="font-2-m cor-4">3,5MM</span>
                                 <p class="font-2-ss cor-7">Transações
                                     processadas por dia</p>
                             </li>
     
-                            <li>
+                            <li data-aos="zoom-in"  data-aos-delay="800">
                                 <p class="font-2-s cor-6">Mais de</p>
                                 <span class="font-2-m cor-4">3K</span>
                                 <p class="font-2-ss cor-7">Pontos de venda
@@ -171,7 +156,7 @@
                     </div>
                 </div>
 
-               <div class="quem-somos-imagem">
+               <div data-aos="fade-left" class="quem-somos-imagem">
                 <img src="/assets/img/img2.png" alt="">
                </div>
                 
@@ -180,16 +165,16 @@
 
         <section class="jornada-bg">
             <div class="jornada container">
-                <h1 class="font-h1-2 cor-0">Soluções para Jornada
+                <h1 data-aos="fade-right" class="font-h1-2 cor-0">Soluções para Jornada
                     do Consumidor
                 </h1>
 
                 <ul class="jornada-lista">
                     <li>
-                        <img src="/assets/jornada/clusterizacao.svg" alt="">
+                        <img data-aos="zoom-in"  data-aos-delay="200" src="/assets/jornada/clusterizacao.svg" alt="">
                         <div class="lista-conteudo">
-                            <h3 class="font-2-ms cor-0">Clusterização com Hipersegmentação</h3>
-                            <p class="font-1-s cor-0">
+                            <h3  data-aos="fade-right" data-aos-delay="500" class="font-2-ms cor-0">Clusterização com Hipersegmentação</h3>
+                            <p data-aos="fade-right" data-aos-delay="800" class="font-1-s cor-0">
                                 Acompanhamento da evolução dos segmentos na base de dados, com  uso de mais de 100 filtros combinados. 
                                 Capacidade de conectar características do clientes com dados transacionais, 
                                 chegando até o SKU comprado pelo cliente.
@@ -199,10 +184,10 @@
                     </li>
 
                     <li>
-                        <img src="/assets/jornada/predicao.svg" alt="">
-                        <div class="lista-conteudo">
-                            <h3 class="font-2-ms cor-0">Predição</h3>
-                        <p class="font-1-s cor-0">
+                        <img data-aos="zoom-in"  data-aos-delay="300" src="/assets/jornada/predicao.svg" alt="">
+                        <div  class="lista-conteudo">
+                            <h3 data-aos="fade-right" data-aos-delay="600" class="font-2-ms cor-0">Predição</h3>
+                        <p data-aos="fade-right" data-aos-delay="900" class="font-1-s cor-0">
                             Filtros preditivos que antecipam comportamentos não desejados, 
                             permitindo ações para reversão..
                         </p>
@@ -211,10 +196,10 @@
                     </li>
 
                     <li>
-                        <img src="/assets/jornada/analise.svg" alt="">
+                        <img data-aos="zoom-in"  data-aos-delay="400" src="/assets/jornada/analise.svg" alt="">
                         <div class="lista-conteudo">
-                            <h3 class="font-2-ms cor-0">Análise da Jornada do Consumidor</h3>
-                            <p class="font-1-s cor-0">
+                            <h3  data-aos="fade-right" data-aos-delay="700" class="font-2-ms cor-0">Análise da Jornada do Consumidor</h3>
+                            <p data-aos="fade-right" data-aos-delay="1000" class="font-1-s cor-0">
                                 Insights combinados com filtros preditivos na ferramenta que permitem call to 
                                 action para reduzir 
                                 comportamentos negativos na base</p>
@@ -223,10 +208,10 @@
                     </li>
 
                     <li>
-                        <img src="/assets/jornada/remarketing.svg" alt="">
+                        <img data-aos="zoom-in"  data-aos-delay="500" src="/assets/jornada/remarketing.svg" alt="">
                         <div class="lista-conteudo">
-                            <h3 class="font-2-ms cor-0">Remarketing</h3>
-                            <p class="font-1-s cor-0">
+                            <h3  data-aos="fade-right" data-aos-delay="800" class="font-2-ms cor-0">Remarketing</h3>
+                            <p data-aos="fade-right" data-aos-delay="1100" class="font-1-s cor-0">
                                 Informações online disponíveis na loja física,
                                  permitindo interações entre vendedores e clientes com objetivo de recuperar 
                                  ou gerar novas vendas.
@@ -236,10 +221,10 @@
                     </li>
 
                     <li>
-                        <img src="/assets/jornada/gp-controle.svg" alt="">
+                        <img data-aos="zoom-in"  data-aos-delay="600" src="/assets/jornada/gp-controle.svg" alt="">
                         <div class="lista-conteudo">
-                            <h3 class="font-2-ms cor-0">Grupo de Controle</h3>
-                            <p class="font-1-s cor-0">
+                            <h3  data-aos="fade-right" data-aos-delay="900" class="font-2-ms cor-0">Grupo de Controle</h3>
+                            <p data-aos="fade-right" data-aos-delay="1200" class="font-1-s cor-0">
                                 Entendimento do impacto do CRM no valor incremental gerado por cada interação de cliente. 
                                 Solução que permite também o cálculo de ROI</p>
                         </div>
@@ -247,7 +232,7 @@
                     </li>
                 </ul>
 
-                <div class="jornada-card">
+                <div data-aos="zoom-in" data-aos-delay="800" class="jornada-card">
                     <h1 class="font-h1-2 cor-0">Se interessou em
                         alguma de nossas
                         soluções?</h1>
@@ -259,11 +244,11 @@
         
         <section class="diferenciais-bg">
             <div class="diferenciais container">
-                <h1 class="font-h1-2 cor-7">Nossos Diferenciais</h1>
+                <h1 data-aos="zoom-in" class="font-h1-2 cor-7">Nossos Diferenciais</h1>
 
                 <div class="diferenciais-lista">
                     <ul>
-                        <li>
+                        <li data-aos="zoom-in"  data-aos-delay="200">
                             <img src="/assets/diferenciais/gestaodeequipes.svg" alt="">
                             <h3 class="font-2-ms cor-4">Gestão da Equipe</h3>
                             <p class="font-2-ss cor-7">
@@ -272,7 +257,7 @@
                             </p>
                         </li>
 
-                        <li>
+                        <li data-aos="zoom-in"  data-aos-delay="400">
                             <img src="/assets/diferenciais/integracao.svg" alt="">
                             <h3 class="font-2-ms cor-4">Integração com bases de dados</h3>
                             <p class="font-2-ss cor-7">
@@ -281,7 +266,7 @@
                             </p>
                         </li>
 
-                        <li>
+                        <li data-aos="zoom-in"  data-aos-delay="600">
                             <img src="/assets/diferenciais/focolupa.svg" alt="">
                             <h3 class="font-2-ms cor-4">Foco na Conversão</h3>
                             <p class="font-2-ss cor-7">
@@ -290,7 +275,7 @@
                             </p>
                         </li>
 
-                        <li>
+                        <li data-aos="zoom-in"  data-aos-delay="800">
                             <img src="/assets/diferenciais/database.svg" alt="">
                             <h3 class="font-2-ms cor-4">Automação com inteligência</h3>
                             <p class="font-2-ss cor-7">
@@ -300,19 +285,19 @@
                         </li>
                     </ul>
                 </div>
-                <a class="botao-verde seta2 font-1-s cor-0" href="#contato">Entre em contato</a>
+                <a data-aos="zoom-in" class="botao-verde seta2 font-1-s cor-0" href="#contato">Entre em contato</a>
                 
             </div>
         </section>
 
         <section id="produtos" class="produtos-bg">
             <div class="produtos container">
-                <h1 class="produto-titulo font-h1-2 cor-0">Nossos Produtos</h1>
+                <h1 data-aos="zoom-in" class="produto-titulo font-h1-2 cor-0">Nossos Produtos</h1>
 
                 <div class="vendas">
-                    <img src="/assets/produtos/X Mockup.png" alt="">
+                    <img data-aos='fade-right' src="/assets/produtos/X Mockup.png" alt="">
                     <div class="vendas-informacao">
-                        <div class="comentario">
+                        <div data-aos="zoom-in" data-aos-delay="500" class="comentario">
                             <img src="/assets/global-icons/detalhe-azul.svg" alt="">
                             <p class="font-1-s cor-0">
                                 É super intuitivo e fácil de utilizar.
@@ -320,8 +305,8 @@
                         </div>
     
                         <div class="produtos-informacao">
-                            <h1 id="produto-titulo" class="font-h1-2 cor-2">Guru de Vendas</h1>
-                            <p class="font-1-s cor-0">
+                            <h1 data-aos="zoom-in" data-aos-delay="700"  id="produto-titulo" class="font-h1-2 cor-2">Guru de Vendas</h1>
+                            <p data-aos="zoom-in" data-aos-delay="1000"  class="font-1-s cor-0">
                                 Através do nosso app seu vendedor acessa agendas e faz contatos personalizados por telefone ou whatsapp.
                                 Com o registro dessas ações, o gestor comercial terá uma visão completa do esforço de sua equipe.
                             </p>
@@ -332,9 +317,9 @@
 
 
                 <div class="crm">
-                    <img src="/assets/produtos/Dashboard.png" alt="">
+                    <img data-aos='fade-left' src="/assets/produtos/Dashboard.png" alt="">
                     <div class="crm-informacao">
-                        <div class="comentario">
+                        <div data-aos="zoom-in" data-aos-delay="500" class="comentario">
                             <img src="/assets/global-icons/detalhe-verde.svg" alt="">
                             <p class="font-1-s cor-0">
                                 Visão ampla de todos seus resultados                       
@@ -342,8 +327,8 @@
                         </div>
     
                         <div class="produtos-informacao">
-                            <h1 class="font-h1-2 cor-2">Guru Crm</h1>
-                            <p class="font-1-s cor-0">
+                            <h1 data-aos="zoom-in" data-aos-delay="700" class="font-h1-2 cor-2">Guru Crm</h1>
+                            <p data-aos="zoom-in" data-aos-delay="1000" class="font-1-s cor-0">
                                 Através de uma plataforma da Guru você terá dashboards online, visão de cliente omnichannel,
                                  gerenciador de campanhas e apuração de resultados.
                             </p>
@@ -358,11 +343,11 @@
             <div class="consultoria container">
 
                 <div class="consultoria-conteudo">
-                    <h1 class="font-h1-2 cor-0">Consultoria no que a gente entende mais</h1>
+                    <h1 data-aos="zoom-in" class="font-h1-2 cor-0">Consultoria no que a gente entende mais</h1>
                     <ul>
                         <li>
-                            <img src="/assets/consultoria/consertacao.svg" alt="">
-                            <p class="font-1-s cor-0">
+                            <img data-aos="fade-right" data-aos-delay="300" src="/assets/consultoria/consertacao.svg" alt="">
+                            <p data-aos="fade-left" data-aos-delay="600" class="font-1-s cor-0">
                                 “Consertação” do CRM: fazemos correções e ajustes em programas de relacionamento 
                                 e CRM que não se mostram eficientes e que têm problemas de conceito, mecânica, 
                                 comunicação, ferramenta ou métricas.
@@ -370,8 +355,8 @@
                         </li>
     
                         <li>
-                            <img src="/assets/consultoria/implantacao.svg" alt="">
-                            <p class="font-1-s cor-0">
+                            <img data-aos="fade-right" data-aos-delay="400" src="/assets/consultoria/implantacao.svg" alt="">
+                            <p data-aos="fade-left" data-aos-delay="700" class="font-1-s cor-0">
                                 Implantação de Programas de CRM de sucesso: desenhamos um programa com a 
                                 cara da sua empresa e de acordo com os objetivos e necessidades que ela demande.  
                                 Deixamos o projeto pronto para você operar e tocar o dia a dia.
@@ -379,8 +364,8 @@
                         </li>
     
                         <li>
-                            <img src="/assets/consultoria/ajuda.svg" alt="">
-                            <p class="font-1-s cor-0">
+                            <img data-aos="fade-right" data-aos-delay="500" src="/assets/consultoria/ajuda.svg" alt="">
+                            <p data-aos="fade-left" data-aos-delay="800" class="font-1-s cor-0">
                                 Ajuda na seleção de ferramentas:  ajudamos você a escolher a plataforma que mais 
                                 se adequa ao seu tamanho,  orçamento, tipo de mão-de-obra de operação e que vai 
                                 te trazer os melhores resultados.
@@ -388,14 +373,14 @@
                         </li>
                     </ul>
     
-                    <a  class="botao-gradiente seta2 font-1-s cor-0" href="#contato">Agendar reunião</a>
+                    <a data-aos="zoom-in" class="botao-gradiente seta2 font-1-s cor-0" href="#contato">Agendar reunião</a>
                 </div>
                
             </div>
         </section>
 
         <section id="depoimentos" class="depoimento-bg">
-            <div class="depoimento container">
+            <div data-aos="fade-left" data-aos-delay="500" class="depoimento container">
                 <div class="depoimento-informacao">
                     <h3 class="font-1-intro cor-3">Depoimentos</h3>
                     <h2 class="font-h1-2 cor-7">O que nossos clientes dizem sobre nosso trabalho</h2>
@@ -589,10 +574,30 @@
       
     </footer>
 
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', ()=>{
+            AOS.init({
+            disable: function () {
+                var maxWidth =  768;
+                return window.innerWidth < maxWidth;
+            },
+            startEvent: 'DOMContentLoaded',
+            offset: 30, // offset (in px) from the original trigger point
+            delay: 100, // values from 0 to 3000, with step 50ms
+            duration: 1000, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: true, // whether animation should happen only once - while scrolling down
+        });
+
+        AOS.refresh();
+        })
+    </script>
+
+    
+    <script src="./js/index.js"></script>
 </body>
-
-<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-<script src="/js/index.js"></script>
-
 
 </html>

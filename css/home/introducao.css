@@ -73,6 +73,21 @@
     padding-bottom: 60px;
 }
 
+.detalhe-crm{
+    animation: go-back .8s infinite alternate;
+    cursor: pointer;
+}
+
+
+@keyframes go-back {
+	from {
+		transform: translateY(20px);
+	}
+	to {
+		transform: translateY(90);
+	}
+}
+
 @media(max-width: 800px){
     .introducao-informacao h1{
         font-size: 3.5rem;

@@ -36,6 +36,11 @@
     box-sizing: border-box;
 }
 
+.botao-gradiente:hover{
+    box-shadow: 1px 0px 5px 3px rgba(129, 224, 134, 0.75);
+    transition: 1s;
+}
+
 .botao-gradiente.seta2::after{
     content: '';
     display: inline-block;
@@ -56,6 +61,11 @@
     box-sizing: border-box;
 }
 
+.botao-branco:hover{
+    box-shadow: 1px 0px 5px 3px rgba(255, 254, 238, 0.75);
+    transition: .3s;
+}
+
 .botao-branco.seta::after{
     content: '';
     display: inline-block;
@@ -74,6 +84,11 @@
     cursor: pointer;
     background: var(--cor-4);
     box-sizing: border-box;
+}
+
+.botao-verde:hover{
+    transition: .3s;
+    box-shadow: 1px 0px 5px 3px rgba(129, 224, 134, 0.75);
 }
 
 .botao-verde.seta2::after{

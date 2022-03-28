@@ -1,11 +1,11 @@
 .swiper-parceiros{
-
+    text-align: center;
    
 }
 .swiper-parceiros .swiper-slide {
     max-width: 200px;
     padding: 20px;
-    margin: auto;
+    margin:  auto;
 }
 
 .parceiros-bg{
@@ -24,6 +24,7 @@
     box-sizing: border-box;
     max-width: 100%;
 } */
+
  .item-slide img{
-    max-width: 200px;
+    max-width: 250px;
 }

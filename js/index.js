@@ -1,16 +1,17 @@
-const btnMobile = document.getElementById('menu-hamburguer');
+ 
+    const btnMobile = document.getElementById('menu-hamburguer');
 
-function toggleMenu(){
-    const nav = document.getElementById('nav');
-    nav.classList.toggle('active')
-}
+    function toggleMenu(){
+        const nav = document.getElementById('nav');
+        nav.classList.toggle('active')
+    }
 
-btnMobile.addEventListener('click', toggleMenu);
-
-
-
+    btnMobile.addEventListener('click', toggleMenu);
 
 
+
+
+    //Swipper
     var swiper = new Swiper(".swiper-parceiros", {
         slidesPerView: 'auto',
         breakpoints: {
@@ -27,10 +28,7 @@ btnMobile.addEventListener('click', toggleMenu);
             }
     
         },
-    
-        //  spaceBetween: 30,
-        // pagination: {
-        //   el: ".swiper-pagination",
-        //   clickable: true,
-        // },
       });
+
+
+

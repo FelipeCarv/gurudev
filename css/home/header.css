@@ -19,6 +19,24 @@
     color: var(--cor-0);
     padding: 10px;
     font-size: 1rem;
+    position: relative;
+    display: inline-block;
+}
+
+.header-menu a::after{
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 0%;
+    background-color: var(--cor-0);
+    margin-top: 4px;
+    position: absolute;
+}
+
+.header-menu a:hover::after,
+.header-menu a.ativo::after{
+    width: 80%;
+    transition: 0.3s;
 }
 
 #menu-hamburguer{
@@ -33,6 +51,20 @@
 
 #estilo-unico{
     display: none;
+}
+
+#esconder{
+    display: none;
+}
+
+#botao-header:hover{
+    color: #c5da9c;
+    transition: .3s;
+}
+
+#botao-guru:hover{
+    box-shadow: 1px 0px 5px 3px rgba(255, 254, 238, 0.75);
+    transition: .3s;
 }
 
 @media(max-width: 800px){
@@ -69,6 +101,9 @@
 
     #estilo-unico{
         color: var(--cor-3);
+        display: block;
+    }
+    #esconder{
         display: block;
     }
 
